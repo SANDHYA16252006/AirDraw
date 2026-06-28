@@ -1,8 +1,8 @@
-# 🎨 AirDraw Pro
+# 🎨 AirDraw 
 
 ## 📌 Overview
 
-AirDraw Pro is a gesture-controlled virtual drawing application developed using Python, OpenCV, MediaPipe, and NumPy. The application uses real-time computer vision and hand tracking to allow users to draw in the air using only their index finger. By eliminating the need for a mouse, stylus, or touchscreen, AirDraw Pro provides an intuitive and touch-free drawing experience.
+AirDraw  is a gesture-controlled virtual drawing application developed using Python, OpenCV, MediaPipe, and NumPy. The application uses real-time computer vision and hand tracking to allow users to draw in the air using only their index finger. By eliminating the need for a mouse, stylus, or touchscreen, AirDraw Pro provides an intuitive and touch-free drawing experience.
 
 The project demonstrates the practical implementation of computer vision, gesture recognition, and human-computer interaction technologies. It offers an interactive interface where users can select different drawing colors, erase drawings, and clear the canvas using simple hand gestures.
 
@@ -42,7 +42,7 @@ AirDraw-Pro/
 │── requirements.txt
 │── README.md
 │── .gitignore
-└── screenshots/
+
 ```
 
 ---
@@ -58,7 +58,7 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/AirDraw-Pro.git
 ### 2️⃣ Navigate to the project folder
 
 ```bash
-cd AirDraw-Pro
+cd AirDraw
 ```
 
 ### 3️⃣ Create a virtual environment (Optional)
@@ -119,21 +119,6 @@ python step5_color_menu.py
 - Gesture-Controlled Systems
 
 ---
-
-## 📸 Screenshots
-
-Add screenshots of your project here.
-
-Example:
-
-- Home Screen
-- Drawing Mode
-- Color Selection
-- Eraser Tool
-- Clear Canvas
-
----
-
 ## 🔮 Future Enhancements
 
 - Undo and Redo functionality
