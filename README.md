@@ -1,39 +1,39 @@
 # 🎨 AirDraw 
 
-## 📌 Overview
+## Overview
 
-AirDraw  is a gesture-controlled virtual drawing application developed using Python, OpenCV, MediaPipe, and NumPy. The application uses real-time computer vision and hand tracking to allow users to draw in the air using only their index finger. By eliminating the need for a mouse, stylus, or touchscreen, AirDraw Pro provides an intuitive and touch-free drawing experience.
+AirDraw is a gesture-controlled virtual drawing application developed using **Python, OpenCV, MediaPipe, and NumPy**. The application uses real-time computer vision and hand landmark detection to enable users to draw in the air using only their index finger. It provides an intuitive, touch-free drawing experience without requiring a mouse, stylus, or touchscreen.
 
-The project demonstrates the practical implementation of computer vision, gesture recognition, and human-computer interaction technologies. It offers an interactive interface where users can select different drawing colors, erase drawings, and clear the canvas using simple hand gestures.
+This project demonstrates the practical implementation of **computer vision**, **gesture recognition**, and **human-computer interaction**, showcasing how hand gestures can be used as a natural interface for digital drawing.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- ✋ Real-time hand tracking using MediaPipe
-- 🎨 Air drawing using the index finger
-- 🔵 Multiple brush colors (Blue, Green, Red)
-- 🩹 Eraser tool
-- 🗑️ Clear canvas option
-- 📷 Full-screen camera interface
-- ⚡ Smooth real-time drawing experience
-- 💻 Easy-to-use gesture-based interface
+* Real-time hand tracking using MediaPipe
+* Air drawing with the index finger
+* Multiple brush colors (Blue, Green, and Red)
+* Eraser tool
+* Clear canvas functionality
+* Full-screen drawing interface
+* Smooth real-time drawing experience
+* Easy gesture-based interaction
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python
-- OpenCV
-- MediaPipe
-- NumPy
+* Python
+* OpenCV
+* MediaPipe
+* NumPy
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-AirDraw-Pro/
+AirDraw/
 │── step1_webcam.py
 │── step2_hand_tracking.py
 │── step3_air_draw.py
@@ -41,53 +41,32 @@ AirDraw-Pro/
 │── step5_color_menu.py
 │── requirements.txt
 │── README.md
-│── .gitignore
-
+└── .gitignore
 ```
 
 ---
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/AirDraw-Pro.git
 ```
 
-### 2️⃣ Navigate to the project folder
+### Navigate to the project folder
 
 ```bash
 cd AirDraw
 ```
 
-### 3️⃣ Create a virtual environment (Optional)
-
-```bash
-python -m venv venv
-```
-
-### 4️⃣ Activate the virtual environment
-
-Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Linux / macOS
-
-```bash
-source venv/bin/activate
-```
-
-### 5️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 6️⃣ Run the project
+### Run the project
 
 ```bash
 python step5_color_menu.py
@@ -95,39 +74,38 @@ python step5_color_menu.py
 
 ---
 
-## 🎮 How to Use
+## 🎮 Usage
 
-- Show your hand in front of the webcam.
-- Raise only your index finger to draw.
-- Raise your index and middle fingers together to enter selection mode.
-- Choose different colors from the toolbar.
-- Select the eraser to remove drawings.
-- Use the Clear option to reset the canvas.
-- Press **Q** to quit the application.
+1. Show your hand in front of the webcam.
+2. Raise only your index finger to draw.
+3. Raise your index and middle fingers together to enter selection mode.
+4. Select a brush color from the toolbar.
+5. Use the eraser to remove drawings.
+6. Select **Clear** to erase the entire canvas.
+7. Press **Q** to exit the application.
+
+---
+
+## 🌍 Applications
+
+* Smart Classrooms
+* Interactive Whiteboards
+* Touchless Presentation Systems
+* Educational Technology
+* Gesture-Controlled Interfaces
+* Human–Computer Interaction Research
+* Computer Vision Applications
 
 ---
 
-## 🌍 Real-World Applications
+## 🚀 Future Enhancements
 
-- Smart Classrooms
-- Digital Whiteboards
-- Interactive Presentations
-- Touchless User Interfaces
-- Human-Computer Interaction
-- Computer Vision Research
-- Educational Technology
-- Gesture-Controlled Systems
-
----
-## 🔮 Future Enhancements
-
-- Undo and Redo functionality
-- Save drawings as images
-- Brush size adjustment
-- AI-based shape recognition
-- Handwritten text recognition
-- Gesture shortcuts
-- Multi-hand support
+* Undo and Redo functionality
+* Adjustable brush size
+* Save drawings as images
+* Automatic shape recognition
+* Handwriting recognition
+* Multi-hand support
 
 ---
 
@@ -135,12 +113,10 @@ python step5_color_menu.py
 
 **Sandhya B**
 
-Bachelor of Technology (Computer Science & Engineering)
+B.Tech – Computer Science & Engineering
 
 Presidency University
 
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
-
-LinkedIn: https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/
-
 ---
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
